@@ -172,6 +172,11 @@ Next:
 |===
 
 
+## Exporting a target platform FROM eclipse
+
+Some users may find the following usecase helpful as well, for reusable target platforms. First, open the `.target` file with the Target Definition editor. On the top-right corner, you'll see an `Export` button. Click it and select a destination directory.   Using this mechanism seems to also mirror sources, so it's convenient for development as well.
+
+
 ## Installing a target platform into eclipse
 
 Up until this point, we've only been referencing *using* a target platform in eclipse to resolve dependencies. 
