@@ -45,7 +45,7 @@ Some profiles allows to select the place from where 3rd-party dependencies will 
 
 For the complete list of profiles and flags, see https://github.com/jbosstools/jbosstools-build/blob/master/parent/pom.xml#L464[JBoss Tools parent pom.xml].
 
-## Mojo optons
+## Mojo options
 
 Each mojo can have some options. You can list them with `mvn help:describe groupId:artifactId:version:mojo`. This will give details about the mojo, and you'll notice the _expression_ on some paramters. _expression_ tells you the system property that can be used to set the value.
 If the mojo parameter was configured directly in pom.xml, then setting the _expression_ for this parameter will be ignore.
