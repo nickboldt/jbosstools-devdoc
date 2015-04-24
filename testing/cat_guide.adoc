@@ -1,0 +1,34 @@
+= JBoss Tools Community Acceptance Testing guide
+
+This document contains information needed for managing JBoss Tools CAT, e.g. what
+processes to follow, what email templates to use etc.
+
+== Resources
+http://tools.jboss.org/cat
+https://lists.jboss.org/mailman/listinfo/jbosstools-cat
+
+== New user signs up ==
+
+* They will show up in the https://docs.google.com/spreadsheet/ccc?key=tCCSAN7idYNU6gtRnYVd2Og#gid=1[Google Doc]
+* Add them to jbosstools-cat JIRA group (send email to help@jboss.org, cc others)
+	- first check if the jira username exists and matches the name entered
+		 - https://issues.jboss.org/secure/ViewProfile.jspa?name= 
+		 - if it does not, mail the person asking for clarification
+        - if you have jira admin rights you can run 'sh addusertocat.sh <username> <password> <usertoadd>'
+
+* Check they signed up for the https://lists.jboss.org/mailman/listinfo/jbosstools-cat[mailing list], if not, add them
+
+== New build for testing
+
+* Send email to jbosstools-cat including links for download
+  - Link to email template to be added later
+* Add a schedule item to tools.jboss.org/cat including a link to the email in archive (when available)
+
+== JBT CAT -- Daily Tasks:
+* Web: http://tools.jboss.org/cat/
+* Mailing List: https://lists.jboss.org/mailman/listinfo/jbosstools-cat
+* Google Forms: https://docs.google.com/forms/d/17zIZCwwNYQC7ZpOlqf6A-Wo1RghdLxcILjKq2Pp6mPc
+* JIRA: https://issues.jboss.org/secure/Dashboard.jspa?selectPageId=12316999
+  - Send email to help@jboss.org (and Max) to register new users to JIRA group
+  - Review all new JIRAs
+
